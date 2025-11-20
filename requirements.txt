@@ -1,0 +1,22 @@
+# requirements.txt (make sure these are in the file)
+streamlit
+pandas
+plotly
+requests
+beautifulsoup4
+facebook-scraper
+playwright
+python-dotenv
+nltk
+reportlab
+slack-sdk
+schedule
+jmespath
+nested_lookup
+parsel
+feedparser
+python-dateutil
+matplotlib
+boto3
+openpyxl
+google-generativeai

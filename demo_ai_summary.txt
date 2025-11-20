@@ -1,0 +1,191 @@
+# Strategic PR Impact Assessment & Performance Audit
+**Zenith Bank Plc**  
+**Period:** October 2024 – March 2025
+
+---
+
+### 1. Executive Summary
+This report audits Zenith Bank Plc's media and reputation from October 2024 to March 2025.
+
+Overall, Zenith maintained a **dominant and highly positive (92.1%)** brand reputation, driven by **Corporate Performance** (N350.4Bn Hybrid Capital Raise [cite: 563]) and **CEO Dr. Adaora Umeoji** prominence [cite: 562].
+
+Competitively, Zenith held **28% Share of Voice (SOV)**, second place. It trails Access Bank (35%) but outperforms GTCO (20%) and First Bank (17%).
+
+Key vulnerability: **Product/Service** sentiment. Low volume (4% of mentions), but **mobile app downtime** and **transaction failures** drive over 90% of **'Anger'** sentiment.
+
+---
+
+### 2. SWOT Analysis
+* **Strengths**
+  * **Strong Financials & Corporate News:** 92.1% positive sentiment from capital raise and results [cite: 563].
+  * **CEO Prominence:** Dr. Adaora Umeoji ranks #1 in CEO media [cite: 562].
+  * **Balanced Thematic Coverage:** Corporate (40%) and CSR/ESG (25%).
+
+* **Weaknesses**
+  * **Negative Product Sentiment:** 'Anger' tied to app performance.
+  * **Low Message Penetration:** "Enhancing E-Channel Services" MPI at 4.5%.
+  * **Legal/Risk Exposure:** EFCC court incident needs monitoring [cite: 563].
+
+* **Opportunities**
+  * **Digital Banking Narrative:** Use CBN PoS geo-tagging rules [cite: 564] to reposition E-Channel campaign.
+  * **Consolidate SOV Lead:** Capture First Bank's weakened share.
+
+* **Threats**
+  * **Competitor Sponsorship:** Access Bank gains SOV via Lagos Marathon [cite: 563].
+  * **Industry-Wide Negativity:** CBN fines and service issues create halo risk [cite: 549].
+
+---
+
+### 3. Outcome & Insights
+
+| **Driver**                | **Analysis** |
+|---------------------------|--------------|
+| **01. CEO Performance**   | Dr. Adaora Umeoji: 37% SOV, 100% positive, tied to Corporate/Leadership [cite: 562]. Key differentiator. |
+| **02. Competitive Analysis** | Access (35%) leads via sponsorships. Zenith (30%) second via corporate news. GTCO (20%), First Bank (15%) negative [cite: 563, 564]. |
+| **03. Government Policy Watch** | CBN PoS geo-tagging and dormant accounts top topics [cite: 564]. Zenith can lead compliance narrative. |
+| **04. Sentiment Analysis** | 92.1% positive (world-class). 4.1% negative concentrated in Product/Service (app issues). |
+| **05. Analyst Advisory**  | 1. Promote capital raise & CEO leadership.<br>2. PR campaign for app concerns.<br>3. Relaunch E-Channel tied to CBN rules.<br>4. "Trust & Governance" vs. First Bank negatives. |
+
+---
+
+### 4. Industry Landscape Overview
+Nigerian banking: regulatory actions + digital shift. **CBN** drives with **PoS geo-tagging** and **dormant account** rules [cite: 564].
+
+Negative sentiment from **CBN fines** and **digital failures**.
+
+Stock rally on Q3 earnings/capital raises (Zenith, First Bank) [cite: 564].
+
+---
+
+### 5. Brand Media Analysis
+
+| **Metric**                | **Result**      | **Analysis** |
+|---------------------------|-----------------|--------------|
+| **Total Media Mentions**  | 1,420           | High visibility. |
+| **Media Vehicle**         | 81% Online / 19% Print | Modern alignment [cite: 2]. |
+| **Brand Exposure (Local)**| 1,405 (99%)     | Domestic focus. |
+| **Brand Exposure (Intl.)**| 15 (1%)         | Growth area. |
+
+---
+
+### 6. Distribution of Media Activities (Monthly)
+* **October 2024:** 15% (baseline).
+* **November 2024:** **35% spike** – N350.4Bn capital raise [cite: 563].
+* **December 2024:** 18% (normal).
+* **January 2025:** 12% (dip).
+* **February 2025:** 20% – CEO in outlook reports.
+
+---
+
+### 7. Publications & Spokespersons Analysis
+* **Top Online (by volume)**
+  1. Nairametrics.com (12%)
+  2. Businessday.ng (10%)
+  3. Punchng.com (9%)
+  4. Thisdaylive.com (8%)
+  5. Thecable.ng (7%)
+
+* **Top Print (by volume)**
+  1. BusinessDay (18%)
+  2. The PUNCH (15%)
+  3. ThisDay (14%)
+
+* **Key Spokespersons**
+  * **Dr. Adaora Umeoji (CEO):** "Our successful capital raise is a testament to the market's confidence..." [cite: 562, 563]
+
+---
+
+### 8. Coverage by Region
+
+| **Region** | **Online Mentions** | **Analysis** |
+|------------|---------------------|--------------|
+| **Nigeria**| 1,405 (99.0%)       | Domestic PR focus. |
+| **USA**    | 8 (0.6%)            | Wire services. |
+| **UK**     | 4 (0.3%)            | Syndicated news. |
+| **Ghana**  | 3 (0.2%)            | Low regional. |
+
+---
+
+### 9. Brand Drivers & Sentiment Index
+* **Positive (92.1%)**
+  * Zenith Bank's Hybrid Capital Raise Exceeds Expectations with N350.4 Billion [cite: 563]
+  * How Dr. Adaora Umeoji Purifies The Atmosphere With Love [cite: 563]
+  * Zenith Bank Enhances E-Channel Services For Customers [cite: 563]
+  * Zenith Bank Wins "Best Bank in Nigeria" at Global Finance Awards
+
+* **Negative (4.1%)**
+  * EFCC Operatives Attempt to Arrest Bank Staff in Court [cite: 563]
+  * "Zenith Bank App is the Worst!" - Customers Fume Over Downtime
+  * My Money Vanished After a Failed Zenith Bank Transfer
+
+* **Neutral (3.8%)**
+  * Zenith Bank, Access, GTCO Stocks See Uptick
+  * CBN Issues New Guidelines for all Banks
+
+---
+
+### 10. Competitive Intelligence
+
+**Share of Voice (SOV) – Overall Media**
+
+| **Bank**       | **SOV %** |
+|----------------|-----------|
+| Access Bank    | 35%       |
+| **Zenith Bank**| **30%**   |
+| GTCO Plc       | 20%       |
+| First Bank     | 15%       |
+
+**Media Prominence – CSR/ESG**
+
+| **Bank**       | **SOV %** |
+|----------------|-----------|
+| GTCO Plc       | 45%       |
+| Access Bank    | 30%       |
+| **Zenith Bank**| **25%**   |
+
+**Media Prominence – Corporate Activities**
+
+| **Bank**       | **SOV %** |
+|----------------|-----------|
+| **Zenith Bank**| **42%**   |
+| Access Bank    | 38%       |
+| First Bank     | 10%       |
+| GTCO Plc       | 10%       |
+
+**CEO Media Prominence**
+
+| **CEO**               | **Bank** | **SOV %** |
+|-----------------------|----------|-----------|
+| **Dr. Adaora Umeoji** | **Zenith**| **37%**   |
+| Bolaji Agbede         | Access   | 32%       |
+| Alebiosu Olusegun     | First Bank| 18%       |
+| Segun Agbaje          | GTCO     | 13%       |
+
+---
+
+### 11. Competitive PR Drivers
+* **Access Holdings:** Leads via **Lagos City Marathon 2025** and **AccessGive** legacy initiative (100% positive) [cite: 563].
+* **GTCO Plc:** Positive low-volume via **Waste-for-Gas** CSR [cite: 563].
+* **First Bank:** Mostly negative – **N10.5m fraud** and board rifts [cite: 563, 564].
+
+---
+
+### 12. Glossary
+* **MIS:** Weights mentions by outlet authority/reach.
+* **MPI:** Tracks core message appearance in coverage.
+* **SOV:** % of total sector conversation owned.
+* **Thematic Analysis:** AI categorization (Corporate, CSR, etc.).
+
+---
+
+### 13. Principle & Methodology
+Generated by **Flash Narrative AI Platform**. Analyzed **1,420 mentions** (Oct 2024–Mar 2025) from 50+ Nigerian outlets, 20 blogs, r/Nigeria. Demo uses static dataset.
+
+---
+
+### Recommendations
+* **Amplify CEO & Corporate Wins:** Double promotion of N350.4Bn raise and Dr. Umeoji’s leadership to reinforce stability.
+* **Fix App Perception Fast:** Launch transparent PR campaign acknowledging downtime, sharing fixes, and timeline.
+* **Reboot E-Channel Messaging:** Tie campaign to CBN PoS geo-tagging rules – position Zenith as digital security leader.
+* **Exploit First Bank Weakness:** Subtle “Trust & Governance” push contrasting Zenith’s clean record.
+* **Boost International Exposure:** Target 1–2 high-impact global finance outlets per quarter.
