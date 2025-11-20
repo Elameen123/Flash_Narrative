@@ -1,46 +1,52 @@
 import os.path
 import base64
+import streamlit as st
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
-from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
-from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
-from dotenv import load_dotenv
+from google.auth.transport.requests import Request
 
-load_dotenv()
-
-# If modifying these scopes, delete the file token.json.
+# Define Scopes
 SCOPES = ['https://www.googleapis.com/auth/gmail.send']
 
 def get_gmail_service():
-    """Shows basic usage of the Gmail API.
-    Lists the user's Gmail labels.
+    """
+    Gets Gmail Service.
+    PRIORITY 1: Streamlit Secrets (Cloud Deployment)
+    PRIORITY 2: Local token.json (Local Development)
     """
     creds = None
-    # The file token.json stores the user's access and refresh tokens, and is
-    # created automatically when the authorization flow completes for the first
-    # time.
-    if os.path.exists('token.json'):
+
+    # 1. Try loading from Streamlit Secrets (Best for Cloud)
+    if "google_oauth" in st.secrets:
+        print("☁️ Loading credentials from Streamlit Secrets...")
+        try:
+            # Reconstruct credentials from the dictionary in secrets
+            oauth_info = st.secrets["google_oauth"]
+            creds = Credentials.from_authorized_user_info(oauth_info, SCOPES)
+        except Exception as e:
+            print(f"⚠️ Secrets found but failed to load: {e}")
+
+    # 2. If no secrets, try local file (Best for Local Dev)
+    elif os.path.exists('token.json'):
+        print("💻 Loading credentials from local token.json...")
         creds = Credentials.from_authorized_user_file('token.json', SCOPES)
-    
-    # If there are no (valid) credentials available, let the user log in.
-    if not creds or not creds.valid:
-        if creds and creds.expired and creds.refresh_token:
+
+    # 3. Refresh if expired
+    if creds and creds.expired and creds.refresh_token:
+        try:
+            print("🔄 Refreshing access token...")
             creds.refresh(Request())
-        else:
-            if not os.path.exists('credentials.json'):
-                print("❌ Error: 'credentials.json' missing. Download it from Google Cloud Console.")
-                return None
-            
-            flow = InstalledAppFlow.from_client_secrets_file(
-                'credentials.json', SCOPES)
-            creds = flow.run_local_server(port=0)
-        
-        # Save the credentials for the next run
-        with open('token.json', 'w') as token:
-            token.write(creds.to_json())
+        except Exception as e:
+            print(f"❌ Failed to refresh token: {e}")
+            return None
+
+    # 4. If we still have no valid creds, we cannot run on Cloud
+    if not creds or not creds.valid:
+        print("❌ No valid credentials found. On Cloud, configure Secrets. Locally, run flow to generate token.json.")
+        return None
 
     try:
         service = build('gmail', 'v1', credentials=creds)
@@ -52,10 +58,10 @@ def get_gmail_service():
 def send_email_google(to_email, subject, body, attachments=None):
     """
     Sends email via Official Google API (HTTPS).
-    Bypasses Port blocking AND DMARC issues.
     """
     service = get_gmail_service()
     if not service:
+        print("❌ Email Service unavailable.")
         return False
 
     try:
@@ -96,5 +102,3 @@ def send_report_email_with_attachments(to_email, subject, body, attachments):
 def send_alert(msg, channel='#alerts', to_email=None):
     if to_email:
         send_email_google(to_email, "FlashNarrative Alert", msg)
-    else:
-        print(f"[Alert] {msg}")
