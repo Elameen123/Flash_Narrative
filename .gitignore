@@ -5,3 +5,4 @@ __pycache__/
 token.json
 credentials.jsontoken.json
 credentials.json
+.streamlit/
